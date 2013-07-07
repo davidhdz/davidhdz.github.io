@@ -3,6 +3,8 @@ layout: default
 title: Miche Andino Codificado
 ---
 
+{% include content.md %}
+
 ||<tablestyle="float:center; font-size: 0.9em; width:40%; background:#ffffff; border: 1px solid #6569ae; margin: 0 0 1em 1em;" style="padding:0.5em; -moz-border-radius: 1em;text-align:center;"> ~+''Basic Information''+~ ||
 || '''Nombre/Name:''' || David Hernández ||
 || '''Apodo/Nick:''' || davidhdz ||
