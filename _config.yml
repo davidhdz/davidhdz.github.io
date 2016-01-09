@@ -1,9 +1,18 @@
-destination: ./_site
-auto:        true
-lsi:         false
-server_port: 4000
-pygments:    true
-markdown:    rdiscount
-permalink:   date
-rdiscount:
-  extensions: [smart]
+# Site settings
+
+title: Miche Andino Codificado
+email: david@micheandino.com.ve
+
+description: "David Hernandez Aponte information website"
+baseurl: ""
+url: "http://web.micheandino.com.ve" # the base hostname & protocol for your site
+
+twitter_username:     davidhdz
+github_username:      davidhdz
+linkedin_username:    davidhdz
+google_plus_username: +DavidHernandez
+facebook_username:    davidhdz
+instagram_username:   davidvzla
+
+# Build settings
+markdown: kramdown

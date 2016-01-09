@@ -1,9 +1,72 @@
 ---
 layout: default
 ---
+<div id="main">
+    <article>
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
 
-<article>
-<h1>{{page.title}}</h1>
-<hr/>
-{{content}}
-</article>
+        <section>
+            {{ content }}
+        </section>
+
+        <footer>
+            <div class="row">
+            {% if page.previous %}
+
+                <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
+                    <header>
+                        <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
+                    </header>
+                    <section>
+                        {{ page.previous.excerpt }}
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{ page.previous.url }}" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            {% endif %}
+
+            {% if page.next %}
+
+                <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
+                    <header>
+                        <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
+                    </header>
+                    <section>
+                        {{ page.next.excerpt | markdownify }}
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{ page.next.url }}" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            {% endif %}
+            </div>
+        </footer>
+
+    </article>
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+    var sc_project=10443237;
+    var sc_invisible=1;
+    var sc_security="c3e76cb4";
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="web counter"
+    href="http://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="http://c.statcounter.com/10443237/0/c3e76cb4/1/"
+    alt="web counter"></a></div></noscript>
+    <!-- End of StatCounter Code for Default Guide -->
+
+</div>
