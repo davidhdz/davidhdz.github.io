@@ -93,6 +93,14 @@
               </li>
               {% endif %}
 
+              {% if site.telegram_username %}
+              <li>
+                <a href="https://t.me/{{ site.telegram_username }}" target="_blank" class="icon fa-telegram">
+                  <span class="label">Telegram</span>
+                </a>
+              </li>
+              {% endif %}
+
               {% if site.email %}
               <li>
                 <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
