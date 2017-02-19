@@ -1,139 +1,26 @@
 <!DOCTYPE html>
-<html>
-  	<head>
-  		<title>Miche Andino Codificado</title>
-      <link rel="shortcut icon" href="/images/favicon.ico" />
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="" />
-  		<meta name="keywords" content="resume" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/jquery.poptrox.min.js"></script>
-  		<script src="/js/skel.min.js"></script>
-  		<script src="/js/init.js"></script>
-  		<noscript>
-  			<link rel="stylesheet" href="/css/skel.css" />
-  			<link rel="stylesheet" href="/css/style.css" />
-  			<link rel="stylesheet" href="/css/style-xlarge.css" />
-  		</noscript>
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  	</head>
+<html lang="en">
 
-	<body id="top">
+{% include head.html %}
 
-      <header id="header">
-          <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-          <h2>
-              <div style="color:#000"><a href="/">Miche Andino Codificado</a></div>
-          </h2>
-          <br>
-          <h3>
-              <a href="charlas.html">Charlas</a>
-              <br>
-              <a href="publicaciones.html">Publicaciones</a>
-              <br>
-              <a href="links.html">Enlaces</a>
-              <br>
-              <a href="http://micheandino.com.ve" target="_blank">Galería</a>
-          </h3>
-      </header>
+<head>
+{% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl }}/blog" />{% endif %}
+</head>
 
-        {{ content }}
+<body>
 
-        <!-- Footer -->
+    {% include nav.html %}
 
-        <footer id="footer">
-            <ul class="icons">
+    {{ content }}
 
-              {% if site.github_username %}
-              <li>
-                <a href="https://github.com/{{ site.github_username }}" target="_blank" class="icon fa-github">
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
+    {% include search.html %}
 
-              {% if site.twitter_username %}
-              <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-              {% endif %}
+<!--    {% include newsletter.html %} -->
 
-              {% if site.linkedin_username %}
-              <li>
-                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" class="icon fa-linkedin">
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-              {% endif %}
+    {% include footer.html %}
 
-              {% if site.google_plus_username %}
-              <li>
-                <a href="https://plus.google.com/{{ site.google_plus_username }}" target="_blank" class="icon fa-google-plus">
-                  <span class="label">Google+</span>
-                </a>
-              </li>
-              {% endif %}
+   {% include Scroll_to_Top.html %}  
 
-              {% if site.facebook_username %}
-              <li>
-                <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" class="icon fa-facebook">
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-              {% endif %}
+</body>
 
-              {% if site.instagram_username %}
-              <li>
-                <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" class="icon fa-instagram">
-                  <span class="label">Instagram</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.telegram_username %}
-              <li>
-                <a href="https://t.me/{{ site.telegram_username }}" target="_blank" class="icon fa-paper-plane">
-                  <span class="label">Telegram</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.email %}
-              <li>
-                <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-            </ul>
-            <ul class="copyright">
-                <div style="color:#fff">
-                <li>&copy; David Hernandez Aponte</li>
-                <li>All images by <a href="http://micheandino.com.ve" target="_blank">David Hernandez</a> are under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC by-nc-sa</a> license</li>
-                </div>
-            </ul>
-        </footer>
-
-        <!-- Start of StatCounter Code for Default Guide -->
-        <script type="text/javascript">
-        var sc_project=10443237;
-        var sc_invisible=1;
-        var sc_security="c3e76cb4";
-        var scJsHost = (("https:" == document.location.protocol) ?
-        "https://secure." : "http://www.");
-        document.write("<sc"+"ript type='text/javascript' src='" +
-        scJsHost+
-        "statcounter.com/counter/counter.js'></"+"script>");
-        </script>
-        <noscript><div class="statcounter"><a title="web counter"
-        href="http://statcounter.com/" target="_blank"><img
-        class="statcounter"
-        src="http://c.statcounter.com/10443237/0/c3e76cb4/1/"
-        alt="web counter"></a></div></noscript>
-        <!-- End of StatCounter Code for Default Guide -->
-
-	</body>
 </html>

@@ -1,0 +1,114 @@
+---
+layout: page
+title: "Galería"
+description: "Street Art"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: "Arte callejero"
+images:
+ - image_path: https://c1.staticflickr.com/4/3343/3262560408_98c643a711_z.jpg
+   caption: Shakespeare nunca lo hizo
+   copyright: © 2009 by David Hernández
+ - image_path: https://c1.staticflickr.com/4/3468/3247443533_b370d6dbfe_z.jpg
+   caption: Imagine
+   copyright: © 2009 by David Hernández
+ - image_path: https://c1.staticflickr.com/4/3473/3291791838_d294acbcc9_z.jpg
+   caption: Marx
+   copyright: © 2009 by David Hernández
+ - image_path: https://c1.staticflickr.com/4/3593/3401746591_88b0b04593_z.jpg
+   caption: Lennon
+   copyright: © 2009 by David Hernández
+ - image_path: http://www.23hq.com/23666/5191709_7645688a44458c14301ed762064b96dd_large.jpg
+   caption: Tripón en cajón eléctrico
+   copyright: © 2009 by David Hernández
+ - image_path: https://c1.staticflickr.com/5/4076/4816057975_9620403fc2_z.jpg
+   caption: 1Up
+   copyright: © 2010 by David Hernández
+ - image_path: https://c1.staticflickr.com/6/5336/9438076805_cfe7ca656b_z.jpg
+   caption: Chávez
+   copyright: © 2013 by David Hernández
+ - image_path: https://c1.staticflickr.com/6/5477/9980668803_b3f01eee3c_z.jpg
+   caption: Conciencia
+   copyright: © 2013 by David Hernández
+
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+          type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+      image: {
+         titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+</body></html>

@@ -1,19 +1,76 @@
 # Site settings
-
-title: Miche Andino Codificado
-email: david@micheandino.com.ve
-
-description: "David Hernandez Aponte information website"
+title: Miche Andino
+email: "david@micheandino.com.ve"
+description: ""
+url: "http://web.micheandino.com.ve"
 baseurl: ""
-url: "http://web.micheandino.com.ve" # the base hostname & protocol for your site
+facebook_username: "davidhdz"
+twitter_username: "davidhdz"
+instagram_username: "davidvzla"
+github_username:  "davidhdz"
+deviantart_username: "davidhdz"
+flickr_username: "davidhdz"
+telegram_username: "davidhdz"
+discus_shortname: "davidvzla"
+share: true
 
-twitter_username:     davidhdz
-github_username:      davidhdz
-linkedin_username:    davidhdz
-#google_plus_username: +DavidHernandez
-facebook_username:    davidhdz
-instagram_username:   davidvzla
-telegram_username:    davidhdz
+# Owner/author information
+owner:
+  name:   David Hernández
+  avatar: avatar.jpg
+  favicon: favicon.ico
+  info: Free/Open Source Photography
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
+# Set 'provider' to false to turn commenting off globally.
+#Set 'provider: false' to disable comments globally.
+# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
+#
+comments :
+  provider : Disqus
+  disqus :
+    short_name : ""
+
+# Internal nav
+nav:
+  - Portada: "/"
+  - Blog: "/blog/"
+  - Galería: "/portfolio/"  
+  - Acerca de: "/about/"
+  - RSS: "feed.xml"
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "/blog/page:num/"
+permalink: "/blog/:title/"
+categories_path: "/blog/category/"
+tags_path: "/blog/tag/"
+gems: 
+ - jekyll-paginate
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "README.theme.md"]
+
+# SiteMap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/writing/"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

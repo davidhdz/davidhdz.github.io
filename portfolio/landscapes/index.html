@@ -1,0 +1,124 @@
+---
+layout: page
+title: "Galería"
+description: "landscapes"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: "Paisajes"
+images:
+ - image_path: http://68.media.tumblr.com/tumblr_kw4cjw5ZSJ1qzqummo1_r1_1280.jpg
+   caption: Rosa
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/tumblr_lctrsaKs0E1qzqummo1_1280.jpg
+   caption: Laguna de Mucubají
+   copyright: © David Hernández
+ - image_path: https://lh3.googleusercontent.com/D53RgU_pFXOFKOfxIZpdavjKEkVQXSRW3OoBWLuXTTLPfd7twV4kMpwQejdFNNdIPMNrFxS8QNfwDHC82ajVeZsdXb4t7VYWM2nReYlxm7I5cnm8yvO-OImxbDL7IDAnOd5Q6kjysXx8fcf2pVVQs48QyJmHItV59XJY4eOF8sdZEokzgjMXxrj1WlFiVeQ2-sB3aGUeaVpp0PpgnX9r3laXhp-5X82h4uS-NZDgvBo-UEwrvcffHZjReU72KyzMRvYJsDqffaycveEEHtC0Mu-861Hn0-H2Am9srR7qY7fMH2ky3ugjZ_yZoV-FwKhN6yYpCoDEobN5ElCQrMdb2OUe7dSdZpSbJQxIsR83h1GyVJibIUddxpxd-tJoaeox3JwCDaeuRUswuxEKO8MXIQx7rdFrRY-sTHWc-oVJTVdLPYsYjJQ6SzmOneZBbmc4dJOH_FiBPB8VKYWK-z_DvBF-6eghtZUxWIGw1eYJpjCqefY9Kt70bX6KkZ4k9fQOc-NAJKLmNsow4eqRHAaEHp1M_RvmAqEOK_59LXh2SN35r1jRFyuM7Jwd4OcFD3kPLnYuGuk8X4z-wSwyYyPG8kFNYh7SUQ3ELZjlPJyfcyNOvvCFx1ka-cYpFAc1xNnFtF7dsyvJcha14YstL3GZveDOsR0Y9hafalg=w720-h482-no
+   caption: Sendero en la Laguna Victoria
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/2b439ce2ef9d05c9c03883324d3e6aa4/tumblr_mpbgkd1L5M1qzqummo1_1280.jpg
+   caption: Pico El León
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/a1ea9161ee30343d09cc73c302415f28/tumblr_mo18bhBJVg1qzqummo1_1280.jpg
+   caption: Cara del Indio
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/tumblr_lgetcv6Bdb1qzqummo1_1280.jpg
+   caption: Pico Bolívar
+   copyright: © David Hernández
+ - image_path: http://www.23hq.com/23666/6933812_30f1cab6d50af0c029f38f15a8228222_large.jpg
+   caption: Laguna Victoria
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/tumblr_lo899icvkq1qzqummo1_1280.jpg
+   caption: Laguna Victoria
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/tumblr_lq5el30RdU1qzqummo1_1280.jpg
+   caption: Páramo de Piñango
+   copyright: © David Hernández
+ - image_path: /img/slider/home03.jpg
+   caption: Amanecer
+   copyright: © David Hernández
+ - image_path: http://68.media.tumblr.com/f6fe519361279d945a5d50367ea44544/tumblr_n13t33TwPo1qzqummo1_1280.jpg
+   caption: Páramo de Piñango
+   copyright: © David Hernández
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    
+</body></html>
