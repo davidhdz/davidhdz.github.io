@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Acerca de mi"
-description: ""
+description: "about me"
 active: about
 header-img: "img/about-bg.jpg"
 ---
