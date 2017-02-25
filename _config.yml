@@ -39,7 +39,7 @@ nav:
   - Galería: "/portfolio/"
   - Archivo: "/archive/"
   - Acerca de: "/about/"
-  - RSS: "feed.xml"
+  - RSS: "/feed.xml"
 
 # All translation keys
 translations:
