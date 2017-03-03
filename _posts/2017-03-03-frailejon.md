@@ -19,7 +19,7 @@ tags:
 format: image
 comments: "true"
 ---
-<a https://c1.staticflickr.com/4/3824/33067785162_94c21d2453_b.jpg" class="popup"  title="Frailejón en La Culata" data-caption="© 2017 by David Hernández"><img src="https://c1.staticflickr.com/4/3824/33067785162_94c21d2453_b.jpg"></a>Frailejón en La Culata.
+<a href="https://c1.staticflickr.com/4/3824/33067785162_94c21d2453_b.jpg" class="popup"  title="Frailejón en La Culata" data-caption="© 2017 by David Hernández"><img src="https://c1.staticflickr.com/4/3824/33067785162_94c21d2453_b.jpg"></a>Frailejón en La Culata.
 
 Enero 2017<br>
 Mérida, Venezuela
