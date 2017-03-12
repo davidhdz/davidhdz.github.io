@@ -48,7 +48,7 @@ permalink: /search/
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
+        noResultsText: 'No se encontraron resultados',
         limit: 10,
         fuzzy: true,
         exclude: ['Welcome']
@@ -61,8 +61,7 @@ permalink: /search/
    {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">
-    <a href="{{ site.baseurl }}/blog/tag/{{ tag | first | slugify }}/"
-        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+    <a href="{{ site.baseurl }}/blog/tag/{{ tag | first | slugify }}/">
             {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
     </a>
 </span>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
