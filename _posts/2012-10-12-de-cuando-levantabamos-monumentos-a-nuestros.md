@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /de-cuando-levantabamos-monumentos-a-nuestros/
 image:
-  feature: "http://micheandino.com.ve/wp/wp-content/uploads/2012/10/inavsores.jpg"
-header-img: "http://micheandino.com.ve/wp/wp-content/uploads/2012/10/inavsores.jpg"
+  feature: "http://68.media.tumblr.com/tumblr_mbs976Z6oD1qzqummo1_r1_1280.jpg"
+header-img: "http://68.media.tumblr.com/tumblr_mbs976Z6oD1qzqummo1_r1_1280.jpg"
 categories:
   - street
 tags:
@@ -19,7 +19,7 @@ tags:
 format: image
 comments: "true"
 ---
-<a href="http://micheandino.com.ve/wp/wp-content/uploads/2012/10/inavsores.jpg" class="popup"  title="Plazoleta Colón" data-caption="© 2009 by David Hernández"><img src="http://micheandino.com.ve/wp/wp-content/uploads/2012/10/inavsores.jpg"></a>
+<a href="http://68.media.tumblr.com/tumblr_mbs976Z6oD1qzqummo1_r1_1280.jpg" class="popup"  title="Plazoleta Colón" data-caption="© 2009 by David Hernández"><img src="http://68.media.tumblr.com/tumblr_mbs976Z6oD1qzqummo1_r1_1280.jpg"></a>
 
 De cuando levantábamos monumentos a nuestros invasores.
 

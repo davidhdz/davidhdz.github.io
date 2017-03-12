@@ -17,7 +17,7 @@ tags:
 format: image
 comments: "true"
 ---
-<a href="http://micheandino.files.wordpress.com/2012/01/tumblr_lyizbhk0zy1qzqummo1_r2_1280.jpg" class="popup"  title="Frailejón (espeletia sp.)" data-caption="© 2012 by David Hernández"><img src="http://micheandino.files.wordpress.com/2012/01/tumblr_lyizbhk0zy1qzqummo1_r2_1280.jpg"></a>
+<a href="http://micheandino.files.wordpress.com/2012/01/tumblr_lyizbhk0zy1qzqummo1_r2_1280.jpg" class="popup"  title="Arepera móvil" data-caption="© 2012 by David Hernández"><img src="http://micheandino.files.wordpress.com/2012/01/tumblr_lyizbhk0zy1qzqummo1_r2_1280.jpg"></a>
 
 Arepera móvil.<br>
 Plaza Bolívar de Mérida.
