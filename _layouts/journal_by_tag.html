@@ -20,9 +20,9 @@ header-img: "img/misc-bg.jpg"
                     </div><h3>{{ post_year }}</h3><div class="category-list" >
                 {% endif %}
             {% endif %}
-			
             <a href="{{ site.baseurl }}{{ post.url }}">
-                <h4>{{ post.title }}</h4>
+                <img alt="Photo: {{ item.title }}" src="{{ post.image.feature }}" title="{{ item.title }}" width="200" height="200"  class="img-thumbnail" /> 
+                {{ post.title }}<br/>
             </a>
 
             {% if forloop.last %}
