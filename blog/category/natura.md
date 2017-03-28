@@ -1,8 +1,8 @@
 ---
 layout: "journal_by_category"
 category: "natura"
-title: "Categoría"
-description: "Natura"
+title: "Natura"
+description: "Categoría"
 permalink: "/blog/category/natura/"
 header-img: "img/archive-bg.jpg"
 ---
