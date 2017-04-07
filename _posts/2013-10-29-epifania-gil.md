@@ -19,6 +19,6 @@ tags:
 format: image
 comments: "true"
 ---
-<a href="http://68.media.tumblr.com/072babe92a3f12bccb353a73bb2d097f/tumblr_mven3nqo5c1qzqummo1_1280.jpg" class="popup"  title="Epifania" data-caption="© 2013 by David Hernández"><img src="" alt="http://68.media.tumblr.com/072babe92a3f12bccb353a73bb2d097f/tumblr_mven3nqo5c1qzqummo1_1280.jpg"></a>
+<a href="http://68.media.tumblr.com/072babe92a3f12bccb353a73bb2d097f/tumblr_mven3nqo5c1qzqummo1_1280.jpg" class="popup"  title="Epifania" data-caption="© 2013 by David Hernández"><img src="http://68.media.tumblr.com/072babe92a3f12bccb353a73bb2d097f/tumblr_mven3nqo5c1qzqummo1_1280.jpg"></a>
 
 Epifania Gil
