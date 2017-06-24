@@ -75,22 +75,21 @@ images:
 		
 	</section>
 
-<div id="footer" role="contentinfo">
-		<ul class="soc-icons">
+    <div id="footer" role="contentinfo">
+        <ul class="soc-icons">
+            {% if site.linkedin_username %}
+            <li>
+                <a href="https://www.linkedin.com/in/{{ site.facebook_username }}" style="color:#dddddd; target="_blank" title="LinkedIn">
+                <i class="fa fa-linkedin"></i>
+                </span>
+                </a></li>
+            {% endif %}
 
                  {% if site.facebook_username %}
 			<li>
    <a href="https://facebook.com/{{ site.facebook_username }}" style="
 color:#dddddd; target="_blank" title="Facebook">
                        <i class="fa fa-facebook"></i>
-                     </span>
-</a></li>
-    {% endif %}
-{% if site.linkedin_username %}
-			<li>
-   <a href="https://www.linkedin.com/in/{{ site.facebook_username }}" style="
-color:#dddddd; target="_blank" title="LinkedIn">
-                       <i class="fa fa-linkedin"></i>
                      </span>
 </a></li>
     {% endif %}
