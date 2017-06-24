@@ -34,7 +34,7 @@ a:focus {
 }
 a img:hover,
 a img:focus {
-  cursor: zoom-in;
+  cursor: pointer;
   outline: none;
 }
 blockquote {
