@@ -64,11 +64,9 @@ Fotografías en portadas de medios digitales e impresos.
         </p>
     </div>
   </div>
-
 </div>
 
 <div class="row">
-
   <div class="col-xs-6 col-md-3">
     <div class="thumbnail">
       <img src="https://lh3.googleusercontent.com/opgf97F4FBIUHCGthBB1QL4pkDo-3FHwlEwuW5-N9dEOxO79x-r7DAtIdnu0fWWI7m5DswI_VK3qYe32nadVaSLZw-FqK_YQhiJ0CTgUUZHlH9PtYbiqoEy-vxRdpOzI5s0ZFkBOYFIxRnEJS30JsrEyH--RI2x6vLkwhsMFJ_IpkZ7_pvb76dAsGb0sud3QvZBwBZwsXsQWHPvXfyJxQzVuR1AQmNN_ic0fubKamWE9BGgWuZXAZCEb4v-ub119ymA9feNPmT538hEYibDpoP_eRw78l-LAY-Vfj_pifTY3gpqMBxA-C7E3IUEoUMezFZEDSbLJ17IyYkVpB1_Cf14TegRnv90-Bwd5pFQyzPJnDvfi3riJ0E_b7mg8Y4N2W-e1LwJeJl9UNYZ2cYTLIMPgDSewJ2yh6c0W8n6cDhGOifUzUI-E2etXNacTvmvuoWfeeLAv4HNYGwpDJ0xhb3G-vI_pF6MjnnG5WgzIpdZ3aKfOAJj3zgmRUSXVetJxv9b_JFP4PzqwdhoB21nuKrx23XwL4GbtsIyaFoOR63Jrbamhv7AJefX2ke6HV-GTc2LKQ3V2K3ljvb1JUzTswR4VTdtAYHIToMM8T42EpgQCT00=w527-h711-no" alt="CLIC 15">
@@ -78,6 +76,18 @@ Fotografías en portadas de medios digitales e impresos.
         <p>
         Fundación Centro Nacional de Desarrollo e Investigación en Tecnologías Libres (CENDITEL) <br>
         Mayo, 2017
+        </p>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <img src="https://lh3.googleusercontent.com/CjurGrYOmOjtn4mhNIzFcObLVZzPYsdUHvYi6eQAMbiqQLk9M40BT7n8GQPdXCAE80myVeCemwKPIjjlggpsHXeBA6O0mTm3XRnw0Qt80F8luYUAl7Jrbe0hiTIKlos5nM5Jt7UFla_vPltqYexgbLljydNPzEeP6YNZDSyOTj_7SyPLp0hXGOGKdDluZlZod_ko2qS2HFmjILcJf1laI8cjgKbPo9oYAuqivs_tcweQcxQxxtBmdc9kGFK5odFs0dTrzDI4RL0QSwykkVQe2jcHlPaA-bKVDRcSKNAlVbvVK8ystVwfHIqxD-1ywTSwjcu3ZJWF6UOpiKoW3mXodgyiG5nxjbs96bW8qodF4-vUD_1zkF6SmOlsFbLxrO1cxoRfpGcno_bTJof9u9mII-pOc68UVty5m441xLWKqX7PX4c6Bw37SuOuyEkqTPCKK6GKiefc-fdWaWsHBXipcVhLg0f9wI6rq5eJo8Fe4nUhR1IdcKngQVgFjUVIjgwgjlr25lyc_78QCF0usrmZQ42OdnT_5TSOB3EMV-kjILsbrCMsuGdnOVnXcWoumi3d2kn1_FAhIq7I4oYqN5eV7XmDMCKo6eahiEyb=w553-h716-no" alt="Análisis del Discurso">
+    </div>
+    <div class="caption">
+        <h4>Análisis del Discurso - Procesamiento de lenguaje natural con Tecnologías Libres</h4>
+        <p>
+        Fundación Centro Nacional de Desarrollo e Investigación en Tecnologías Libres (CENDITEL) <br>
+        Noviembre, 2017
         </p>
     </div>
   </div>
