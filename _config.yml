@@ -56,12 +56,12 @@ port:             	 4000
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num/"
 permalink: "/blog/:title/"
 categories_path: "/blog/category/"
 tags_path: "/blog/tag/"
-gems: 
+plugins: 
  - jekyll-sitemap
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "README.theme.md"]
