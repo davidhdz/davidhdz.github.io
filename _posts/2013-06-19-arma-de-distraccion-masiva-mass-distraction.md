@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /arma-de-distraccion-masiva-mass-distraction/
 image:
-  feature: "https://ig-s-b-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/e15/11252100_1446979212279889_1851290466_n.jpg"
-header-img: "https://ig-s-b-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/e15/11252100_1446979212279889_1851290466_n.jpg"
+  feature: "https://scontent-mia3-2.cdninstagram.com/vp/403ad593e4c4e2e673204609acd77cb0/5B96B9A8/t51.2885-15/e15/11252100_1446979212279889_1851290466_n.jpg"
+header-img: "https://scontent-mia3-2.cdninstagram.com/vp/403ad593e4c4e2e673204609acd77cb0/5B96B9A8/t51.2885-15/e15/11252100_1446979212279889_1851290466_n.jpg"
 categories:
   - streetart
 tags:

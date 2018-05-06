@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /helice-supina-enviada-desde-instagram-en-hotel/
 image:
-  feature: "https://ig-s-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11142745_903756426334996_1635694763_n.jpg"
-header-img: "https://ig-s-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11142745_903756426334996_1635694763_n.jpg"
+  feature: "https://scontent-mia3-2.cdninstagram.com/vp/9c0675b85d99bb44aaa3a7ef03d88c4f/5B891B18/t51.2885-15/e15/11142745_903756426334996_1635694763_n.jpg"
+header-img: "https://scontent-mia3-2.cdninstagram.com/vp/9c0675b85d99bb44aaa3a7ef03d88c4f/5B891B18/t51.2885-15/e15/11142745_903756426334996_1635694763_n.jpg"
 categories:
   - indoor
 tags:

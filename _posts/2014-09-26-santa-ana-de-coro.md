@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /santa-ana-de-coro/
 image: 
-  feature: "https://ig-s-a-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/e15/10684121_853279981369336_304837969_n.jpg"
-header-img: "https://ig-s-a-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/e15/10684121_853279981369336_304837969_n.jpg"
+  feature: "https://scontent-mia3-2.cdninstagram.com/vp/e4ff0ae9cc3305a26deafda563dbf367/5B8468F9/t51.2885-15/e15/10684121_853279981369336_304837969_n.jpg"
+header-img: "https://scontent-mia3-2.cdninstagram.com/vp/e4ff0ae9cc3305a26deafda563dbf367/5B8468F9/t51.2885-15/e15/10684121_853279981369336_304837969_n.jpg"
 categories:
   - street
 tags:

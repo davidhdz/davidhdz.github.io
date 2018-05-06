@@ -26,7 +26,7 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: stretch;
+  box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
@@ -40,7 +40,7 @@
 
 .blockGroup-list .block {
   display: block;
-  width: 100%;
+  width: 50%;
   margin-bottom: 1.5rem;
   font-family: "Roboto", sans-serif;
   display: -webkit-flex;
@@ -49,13 +49,22 @@
   display: flex;
 }
 
-@media (max-width: 767px)
+.blockGroup-list .postArticle-wrapper
+{
+    position: relative;
+    background: #000;
+    width: 100%;
+    -webkit-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0);
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0);
+}
+
+@media (max-width: 720px)
 {
     .blockGroup-list .block
     {
         width: 100%;
     }
-}
+
 
 .blockGroup-list li:nth-child(1).block
 {
@@ -67,14 +76,15 @@
     padding-top: 30%;
     position: center;
 }
+}
 
-@media (max-width: 767px)
+@media (max-width: 720px)
 {
     .blockGroup-list li:nth-child(1).block .postArticle-image
     {
         padding-top: 50%;
     }
-}
+
 
 .blockGroup-list li:nth-child(1).block .postArticle-title
 {
@@ -107,15 +117,15 @@
 {
     font-size: 1rem;
 }
-
-@media (max-width: 767px)
+}
+@media (max-width: 720px)
 {
     .blockGroup-list li:nth-child(2).block,
   .blockGroup-list li:nth-child(3).block
     {
         width: 100%;
     }
-}
+
 
 .blockGroup-list li .postArticle-title
 {
@@ -176,7 +186,7 @@
   -webkit-transition-property: all, left, top, width;
   -webkit-transition-duration: .5s, .1s, .1s, .1s;
   -webkit-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
-  -webkit-transition-delay: 0;
+  transition-delay: 0;
   -moz-transition-property: all, left, top, width;
   -moz-transition-duration: .5s, .1s, .1s, .1s;
   -moz-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
@@ -196,14 +206,14 @@
   -webkit-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
 }
-
-@media (max-width: 767px)
+}
+@media (max-width: 720px)
 {
     .blockGroup-list .postArticle-image
     {
         padding-top: 50%;
     }
-}
+
 
 .blockGroup-list li:nth-child(2).block .block-postMeta
 {
@@ -232,4 +242,5 @@
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+}
 }

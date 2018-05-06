@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /trolcable-merida-venezuela/
 image:
-  feature: "https://ig-s-c-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/e15/11269661_867435766671990_1077670190_n.jpg"
-header-img: "https://ig-s-c-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/e15/11269661_867435766671990_1077670190_n.jpg"
+  feature: "https://scontent-mia3-2.cdninstagram.com/vp/52e0fa428b6d71d25e1b1c122da411bc/5B8E40E8/t51.2885-15/e15/11269661_867435766671990_1077670190_n.jpg"
+header-img: "https://scontent-mia3-2.cdninstagram.com/vp/52e0fa428b6d71d25e1b1c122da411bc/5B8E40E8/t51.2885-15/e15/11269661_867435766671990_1077670190_n.jpg"
 categories:
   - transport
 tags:

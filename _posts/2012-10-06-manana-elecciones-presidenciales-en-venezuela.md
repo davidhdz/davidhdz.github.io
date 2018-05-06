@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /manana-elecciones-presidenciales-en-venezuela/
 image:
-  feature: "https://ig-s-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11138043_817766531611553_1530218614_n.jpg"
-header-img: "https://ig-s-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11138043_817766531611553_1530218614_n.jpg"
+  feature: "https://scontent-mia3-2.cdninstagram.com/vp/7b970e361628722ff9098b6192ce4a98/5B8FECF9/t51.2885-15/e15/11138043_817766531611553_1530218614_n.jpg"
+header-img: "https://scontent-mia3-2.cdninstagram.com/vp/7b970e361628722ff9098b6192ce4a98/5B8FECF9/t51.2885-15/e15/11138043_817766531611553_1530218614_n.jpg"
 categories:
   - streetart
 tags:

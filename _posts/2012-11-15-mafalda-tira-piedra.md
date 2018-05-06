@@ -6,8 +6,8 @@ author: David Hernandez
 layout: post
 permalink: /mafalda-tira-piedra/
 image:
-  feature: "https://ig-s-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11137786_1657063187856857_1901318181_n.jpg"
-header-img: "https://ig-s-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11137786_1657063187856857_1901318181_n.jpg"
+  feature: "https://scontent-mia3-2.cdninstagram.com/vp/179fb8c272393ab914b7e45033648a7b/5B85C0BA/t51.2885-15/e15/11137786_1657063187856857_1901318181_n.jpg"
+header-img: "https://scontent-mia3-2.cdninstagram.com/vp/179fb8c272393ab914b7e45033648a7b/5B85C0BA/t51.2885-15/e15/11137786_1657063187856857_1901318181_n.jpg"
 categories:
   - streetart
 tags:
