@@ -1,14 +1,15 @@
-
 /*-----------------*/
 /***** Selena *****/
 /*-----------------*/
 
+
+
 figure.effect-selena {
-	background: #ffffff;
+	background: #EEEEEE;
 }
 
 figure.effect-selena img {
-    cursor: pointer;
+    cursor: default;
 	opacity: 1;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -17,11 +18,14 @@ figure.effect-selena img {
 }
 
 figure.effect-selena:hover img {
+	opacity: .8;
 	-webkit-transform: scale3d(0.95,0.95,1);
 	transform: scale3d(0.95,0.95,1);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
 }
 
-figure.effect-selena h2 {
+figure.effect-selena h3 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
@@ -38,12 +42,14 @@ figure.effect-selena p {
 	transform-origin: 50% 0%;
 }
 
-figure.effect-selena:hover h2 {
+figure.effect-selena:hover h3 {
+    color: #000000;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
 figure.effect-selena:hover p {
+    color: #000000;
 	opacity: 1;
 	-webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
 	transform: perspective(1000px) rotate3d(1,0,0,0);
