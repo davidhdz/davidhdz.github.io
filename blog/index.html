@@ -2,65 +2,50 @@
 layout: page
 title: "Blog"
 description: ""
-active: journal
+active: gallery
 header-img: "img/writing-bg.jpg"
 ---
-
+<html class="no-js">
 <head>
-<link rel="stylesheet" href="{{ site.baseurl }}/css/journal.css" media="screen" />
+    <meta content="charset=utf-8">
+    <link rel="stylesheet" href="{{ "/css/selena.css" | prepend: site.baseurl }}">
 </head>
 
-<body class="journal">
-<div class="archive">
-  <h1 class="archive-title" style="display:inline-block;"> Publicaciones </h1>
+<body class="gallery">
+    <div class="archive">
+        <h1 class="archive-title" style="display:inline-block;"> Publicaciones </h1>
 
-<div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
-    Buscar por <a href="{{ site.baseurl }}/blog/category/">Categoría</a> o <a href="{{ site.baseurl }}/blog/tag/">Etiqueta</a>
-  </div>
-</div>
-
-<section class="section--postsWrapper">
-  <div class="container">
-    <div class="blockGroup">
-      <ul class="blockGroup-list">
-
-{% for post in paginator.posts %}
-
-
- {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  
-<li class="block">
-<div class="postArticle-wrapper">
-
-<div class="post-preview" style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000;">
-    
-<a href="{{ post.url | prepend: site.baseurl }}">
-        {% if post.image.feature %}
-    <div align="center">
-	<img src="{{ post.image.feature }}">
+        <div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
+            Buscar por <a href="{{ site.baseurl }}/blog/category/">Categoría</a> o <a href="{{ site.baseurl }}/blog/tag/">Etiqueta</a>
+        </div>
     </div>
-	{% endif %}
- 
- 
-        <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ post.title }}
-        </p>
-</a>
-        {% if post.subtitle %}
-        <p class="post-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;"> {{ post.subtitle }}</p>
-        {% endif %}
-    
-    <p class="post-meta" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 10px; margin-left: 1em;"> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
 
-</div>
-</li>
- {% endfor %}
-<p>&nbsp;</p>
-      </ul>
-    </div>
-  </div>
-</section>
+<section id="content" role="main">
+    <div class="wrapper">
+            
+        <!-- Gallery __-->
+        <div class="gallery masonry-gallery">
+                {% for post in paginator.posts %}
+
+                <figure class="gallery-item">
+                    <figure class="effect-selena">
+                        <header class='gallery-icon'>
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                <img src="{{ post.image.feature }}">
+                            </a>
+                        </header>
+                        <figcaption class='gallery-caption'>
+                            <div class="entry-summary">
+                                <h3>{{ post.title }}</h3>
+                                <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </figure>
+            {% endfor %}		
+         </div>     
+    </div><!-- END .wrapper -->
+ </section>
 
 
 <!-- Pager -->
@@ -84,5 +69,22 @@ header-img: "img/writing-bg.jpg"
 
 <br>
 
+<!-- jQuery -->    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
 
 </body>
+</html>
