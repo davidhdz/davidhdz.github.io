@@ -19,6 +19,6 @@ tags:
 format: image
 comments: "true"
 ---
-<a href="http://micheandino.files.wordpress.com/2011/04/tumblr_lk5xxgwswo1qzqummo1_1280.jpg" class="popup"  title="Cara del Indio" data-caption="© 2011 by David Hernández"><img src="http://micheandino.files.wordpress.com/2011/04/tumblr_lk5xxgwswo1qzqummo1_1280.jpg"></a>
+<a href="http://micheandino.files.wordpress.com/2011/06/tumblr_lmmoa5ur8h1qa1qgjo1_r1_1280.jpg" class="popup"  title="Cara del Indio" data-caption="© 2011 by David Hernández"><img src="http://micheandino.files.wordpress.com/2011/06/tumblr_lmmoa5ur8h1qa1qgjo1_r1_1280.jpg"></a>
 
 Cara del Indio
