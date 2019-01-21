@@ -18,7 +18,7 @@ header-img: "img/about-bg.jpg"
       <a href="/charlas/index.html"><img src="https://lh3.googleusercontent.com/oaKbGJW_QObWN0q2GM7_mq0uHleg99qfzpvCgbV_ZMHU8nCKF6qGLLvMV8Mn-dbTsztYZqnsizn7p4IAv8pSdVUafEXVd1_-Q7ornz7KCn-Jh-mOaT680-wQZGWjQkZZzfAKIq7wW9HOuP6kYkMmFIxW07pd3KQJeXm068HalF-nYtC8AAB9uRREICGABzAWIDDhZQMP0JK3wsvkTDMe2GPnd9IIi4F0jU0KUGQCKD-yT5a72PPBFnK9BT7zH10kETYU3RqgMfmlA8UaeH_VI698g7fNbi0bvk50BSEDuUHS9Hl7lzv9lAooF_GMzWvcJAWqR_c__Zj603TBjr8bC4cvOsgRRQt4gcNMLMFIgnV3RDgJxREk5YdGKru-_GST86fW5C5FHxgwj4_TFfaJP3IAA0UfxJU4ZYLq3ZLyyeehpUv7b9tYpz2LDXg_ZnLxS7Zwzi4gXA5cISXu9Qf4tGoF1kAGXyIdGCm0GOKhf8Qd1-ZamW8gI2WDTxPb3sR0Rc7crXldITi7-7o3guM7nZwWXb6kAi-nJtL6h5ZBQMETRlEJLbt3Y_XndmdqNC7ErL9TxENcbBZ9s7nVLNCtEveKl22fV8QfyUwp0JMk6paChqdbmZ7-9o5Ww_ofs1VrDYmyPzTPimSLaA5UXsfLvz8ypfoEi6_K1yU=w1000-h670-no" alt="Publicaciones"></a>
       <div class="caption">
         <a href="/charlas/index.html"><h3>Eventos</h3></a>
-        <p>Presentaciones y colaboraciones en eventos.</p>
+        <p>Participaciones en eventos.</p>
       </div>
     </div>
   </div>
@@ -46,7 +46,8 @@ header-img: "img/about-bg.jpg"
 
 <p align="center">
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br />Todas las imágenes hechas por David Hernández están publicadas bajo<br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Internacional</a>.
-</p>
-<br>
+
+<br><br>
 Si desea utilizar una imágen con fines comerciales por favor contacte conmigo.
 <br><br>
+</p>
