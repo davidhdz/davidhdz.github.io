@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/davidhdz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://micheandino.com.ve
+  * I am davidhdz (https://keybase.io/davidhdz) on keybase.
+  * I have a public key ASBlzzXybFicnma7Z5DyqipLnlwSw0daSYDR2LpVaw64zQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012065cf35f26c589c9e66bb6790f2aa2a4b9e5c12c3475a4980d1d8ba556b0eb8cd0a",
+      "host": "keybase.io",
+      "kid": "012065cf35f26c589c9e66bb6790f2aa2a4b9e5c12c3475a4980d1d8ba556b0eb8cd0a",
+      "uid": "d1705df164ad3e2d80d35e3666ca2019",
+      "username": "davidhdz"
+    },
+    "merkle_root": {
+      "ctime": 1586199894,
+      "hash": "6b4ab8a2d8f14a97b30123df56e2893326282ec7113af7747fc945af4caa2dcc5cd78764c5e6cdb7161b2b1c66ce40a2f5bda58e11bd542250be3377f2bfa9eb",
+      "hash_meta": "ead7b8f3e703f7276aa53c0fee7a1cdb595232fd7cc2af6022da92d9a5e65d04",
+      "seqno": 15799241
+    },
+    "service": {
+      "entropy": "NB5ge2mNqN+3zxPIkOIDR+OS",
+      "hostname": "micheandino.com.ve",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.1"
+  },
+  "ctime": 1586199911,
+  "expire_in": 504576000,
+  "prev": "66ab6452b5804d837c23cca27007e908552b14443a0ec2e006577c26cccd93a5",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZc818mxYnJ5mu2eQ8qoqS55cEsNHWkmA0di6VWsOuM0Kp3BheWxvYWTESpcCB8QgZqtkUrWATYN8I8yicAfpCFUrFEQ6DsLgBld8JszNk6XEIBWFFMAQVFiX14X6DkUosM2yy42ZAxAKl+XhSyOcq+SzAgHCo3NpZ8RAi6wLbz7t5puGjYMiLkFCSuoVkrx29w3wc4u29A7FBwCU/Mr2JwCvav12eU3djql5WEToDJdv4mzmFFD43JDGDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIVJnasnHmQaQzIbOZQ6UUROFY6Gt4mbzbwPI8Nn97/wo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/davidhdz
+
+==================================================================
