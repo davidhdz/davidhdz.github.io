@@ -37,7 +37,7 @@ comments :
 nav:
   - Portada: "/"
   - Blog: "/blog/"
-  - Galería: "/portfolio/"
+  - Colecciones: "/portfolio/"
   - Archivo: "/archive/"
   - Acerca de: "/about/"
   - RSS: "/feed.xml"
