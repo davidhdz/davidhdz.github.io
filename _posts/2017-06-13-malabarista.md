@@ -14,7 +14,7 @@ header-img: "https://c1.staticflickr.com/5/4213/35120155492_5dcf0093da_b.jpg"
 tags:
   - people
   - street
-  - black-and-white
+  - black and white
   - colombia
   - portrait
 format: image

@@ -5898,12 +5898,14 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .pager .next>a,
 .pager .next>span {
-  float: right
+  float: right;
+  border-radius: 8px;
 }
 
 .pager .previous>a,
 .pager .previous>span {
-  float: left
+  float: left;
+  border-radius: 8px;
 }
 
 .pager .disabled>a,

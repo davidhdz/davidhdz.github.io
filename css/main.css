@@ -359,7 +359,9 @@ form .row:first-child .floating-label-form-group {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background-color: black;
+  /* background-color: black; */
+  color: white;
+  background-color: #21475d;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
@@ -371,7 +373,7 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: black;
+  background-color: #0085a1;
   }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -403,6 +405,10 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 .fa-stack-2x {
- color: black;
+ /* color: black; */
+ color: #21475D;
 }
-
+.fa-stack-2x:hover,
+.fa-stack-2x:focus {
+  color: #0085a1;
+ }
