@@ -1,7 +1,7 @@
 ---
 title: Atardecer playero
 active: "journal"
-date: 2022-10-09T09:03:57-04:00
+date: 2022-10-09T14:53:57-04:00
 author: David Hernandez
 layout: post
 permalink: /los-caracas-2022/
