@@ -10,7 +10,7 @@ categories:
   - landscape
   - outdoor
 image:
-  feature: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"
+  feature: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Morros_de_San_Juan.jpg/1024px-Morros_de_San_Juan.jpg"
 header-img: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"
 tags:
   - nature
