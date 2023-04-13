@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
-<br><br>
-<div class="container">
+    <br><br>
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
@@ -88,16 +88,17 @@
                         </a>
                     </li>
                     {% endif %}
-            <li>
-    <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
-                       <span class="fa-stack fa-lg">
+                    <li>
+                        <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
+                            <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-</span>
-          </a> </li>
+                            </span>
+                        </a>
+                    </li>
 
-         <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" data-toggle="tooltip" title="Feed">
+                    <li>
+                        <a href="{{ " /feed.xml" | prepend: site.baseurl }}" data-toggle="tooltip" title="Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -106,8 +107,24 @@
                     </li>
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
-<center><h6><p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p></h6></center>
+                <center>
+                    <h6>
+                        <p>Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p>
+                    </h6>
+                </center>
             </div>
         </div>
     </div>
+    <script>
+        function loadScript(a) {
+            var b = document.getElementsByTagName("head")[0],
+                c = document.createElement("script");
+            c.type = "text/javascript", c.src = "https://tracker.metricool.com/resources/be.js", c.onreadystatechange = a, c.onload = a, b.appendChild(c)
+        }
+        loadScript(function() {
+            beTracker.t({
+                hash: "2ae4fc1b3f5ffb1c6de3cf4889bcff36"
+            })
+        });
+    </script>
 </footer>
