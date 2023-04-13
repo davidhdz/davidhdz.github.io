@@ -64,6 +64,7 @@ tags_path: "/blog/tag/"
 plugins: 
  - jekyll-sitemap
  - jekyll-paginate
+ - jekyll-seo-tag
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "README.theme.md"]
 
 # SiteMap
