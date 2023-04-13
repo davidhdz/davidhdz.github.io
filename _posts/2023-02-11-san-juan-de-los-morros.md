@@ -11,7 +11,7 @@ categories:
   - outdoor
 image:
   feature: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Morros_de_San_Juan.jpg/1024px-Morros_de_San_Juan.jpg"
-header-img: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"
+header-img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Morros_de_San_Juan.jpg/1024px-Morros_de_San_Juan.jpg"
 tags:
   - nature
   - landscape
@@ -21,7 +21,7 @@ tags:
 format: image
 comments: "true"
 ---
-<a href="https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"  class="popup"  title="Los Morros de San Juan" data-caption="© 2023 by David Hernández"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Morros_de_San_Juan.jpg/2048px-Morros_de_San_Juan.jpg" class="popup"  title="Los Morros de San Juan" data-caption="© 2023 by David Hernández"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Morros_de_San_Juan.jpg/2048px-Morros_de_San_Juan.jpg"></a>
 
 Morros de San Juan - Monumento Natural Arístides Rojas.
 
