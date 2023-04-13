@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="{{ site.basurl }}/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico?" type="image/x-icon">
 
-    <link rel="author" href="https://micheandino.com.ve/about/"/>
+    <link rel="author" href="https://micheandino.com.ve/about/" />
 
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="David Hernandez Aponte">
@@ -22,15 +22,15 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-<!-- CSS -->
-	
+    <!-- CSS -->
+
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/galleries.css" | prepend: site.baseurl }}">
-     <link rel="stylesheet" href="{{ "/css/super-search.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/super-search.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/magnificpopup.css" | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
@@ -46,29 +46,36 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<!-- Tuitter Cards -->
+    <!-- Tuitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@davidhdz">
     <meta name="twitter:title" content="{{ page.title }}">
 
     {% if page.description %}
-      <meta name="twitter:description"
-        content="{{ page.meta_description }}">
+    <meta name="twitter:description" content="{{ page.meta_description }}">
     {% else %}
-      <meta name="twitter:description"
-        content="{{ page.content | strip_html | xml_escape
+    <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape
           | truncate: 100 }}">
     {% endif %}
 
     {% if page.image.feature %}
-      <meta name="twitter:image"
-        content="{{ page.header-img }}">
+    <meta name="twitter:image" content="{{ page.header-img }}">
     {% else %}
-      <meta name="twitter:image"
-        content="{{ site.baseurl }}/img/logo.png">
+    <meta name="twitter:image" content="{{ site.baseurl }}/img/logo.png">
     {% endif %}
 
-        <!-- Start of StatCounter Code for Default Guide -->
-        <!-- End of StatCounter Code for Default Guide -->
-
+    <!-- Start of StatCounter Code for Default Guide -->
+    <!-- End of StatCounter Code for Default Guide -->
+    <script>
+        function loadScript(a) {
+            var b = document.getElementsByTagName("head")[0],
+                c = document.createElement("script");
+            c.type = "text/javascript", c.src = "https://tracker.metricool.com/resources/be.js", c.onreadystatechange = a, c.onload = a, b.appendChild(c)
+        }
+        loadScript(function() {
+            beTracker.t({
+                hash: "2ae4fc1b3f5ffb1c6de3cf4889bcff36"
+            })
+        });
+    </script>
 </head>
