@@ -24,7 +24,7 @@ color: #223333;font-size:1em;">
             </a>
         </li>
 
-        <li>
+        <!-- <li>
             <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&media={{page.image.feature}}&description=&quot;{{ page.title }}&quot;" data-pin-do="buttonBookmark" data-pin-description="{{ page.title }}" target="_blank" data-toggle="tooltip" title="Save on Pinterest" itemprop="Pinterest">
                 <span class="fa-stack fa-lg" style="
 color: #223333;font-size:1em;">
@@ -32,6 +32,17 @@ color: #223333;font-size:1em;">
                     <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
                 </span>
             </a>
+        </li> -->
+
+        <li>
+            <a href="tg://msg_url?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" title="Share on Telegram" itemprop="Telegram">
+                <span class="fa-stack fa-lg" style="
+color: #223333;font-size:1em;">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
         </li>
+
     </ul>
 </div>
