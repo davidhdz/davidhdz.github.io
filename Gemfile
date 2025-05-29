@@ -12,6 +12,6 @@ gem "jekyll-sitemap", "~> 1.4"
 
 gem "jekyll-paginate", "~> 1.1"
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
 
 gem 'jekyll-seo-tag'
