@@ -21,7 +21,7 @@ tags:
 format: image
 comments: "true"
 ---
-<a href="https://commons.wikimedia.org/wiki/File:Morros_de_San_Juan.jpg" class="popup"  title="Los Morros de San Juan" data-caption="© 2023 by David Hernández"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg" class="popup"  title="Los Morros de San Juan" data-caption="© 2023 by David Hernández"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Morros_de_San_Juan.jpg"></a>
 
 Morros de San Juan - Monumento Natural Arístides Rojas.
 
